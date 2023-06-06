@@ -1,0 +1,42 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&family=Roboto:wght@300;500;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Comforter&family=Comforter+Brush&family=Style+Script&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+     .socialIcons {
+      @apply w-8 h-8 bg-black text-white text-xl inline-flex items-center justify-center rounded-full shadow-shadowOne hover:-translate-y-1 transition-all hover:bg-borderButton hover:text-black cursor-pointer duration-300;
+     }
+      .skillIcons {
+        @apply w-20 h-20 bg-techbox text-cyan-700 text-5xl inline-flex items-center justify-center cursor-pointer shadow-shadowOne hover:bg-borderButton hover:-translate-y-1 transition-all hover:text-designColor duration-300; 
+      } 
+}
+.active:hover {
+  transition: all 0.2s ease;
+  color: aqua;
+}
+@Layer components {
+  body {
+    overflow-x: hidden;
+  }
+}
+.input_bg {
+    background: none;
+    border-bottom: 1px solid #333;
+    color: #fff;
+}
+  .input_bg:focus {
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+  
